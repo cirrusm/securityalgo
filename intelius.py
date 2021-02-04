@@ -1,0 +1,9 @@
+from selenium import webdriver
+import time
+## OPEN INTELIUS PAGE
+
+## CLICK NO
+
+## FILL OUT FIRST NAME LAST NAME STATE EMAIL ADRESS
+
+## CLICK FIRST REMOVE RECORD
