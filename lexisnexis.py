@@ -1,6 +1,13 @@
 from selenium import webdriver
 import time
 
+## INPUT VARIABLES
+firstname = 'Cirrus'
+lastname = 'Mokhtari'
+address = '4501 surrey drive'
+city = 'Corona del mar'
+zip_code = '92625'
+
 web = webdriver.Chrome()
 web.get('https://optout.lexisnexis.com/')
 
@@ -15,15 +22,15 @@ web.find_element_by_xpath('//*[@id="reason"]/option[2]').click()
 web.find_element_by_xpath('//*[@id="optout"]/div[3]/div[2]/a[2]').click()
 
 # FILL OUT FIRST AND LAST NAME, CLICK NEXT
-web.find_element_by_xpath('//*[@id="nameFirst"]').send_keys('Cirrus')
-web.find_element_by_xpath('//*[@id="nameLast"]').send_keys('Mokhtari')
+web.find_element_by_xpath('//*[@id="nameFirst"]').send_keys(firstname)
+web.find_element_by_xpath('//*[@id="nameLast"]').send_keys(lastname)
 web.find_element_by_xpath('//*[@id="optout"]/div[4]/label[4]/div/a[3]').click()
 
 # FILL OUT ADRESS/CITY/ZIP SELECT STATE DROPOWN
-web.find_element_by_xpath('//*[@id="addressLine1"]').send_keys('4501 Surrey Drive')
-web.find_element_by_xpath('//*[@id="addressCity"]').send_keys('Corona Del Mar')
+web.find_element_by_xpath('//*[@id="addressLine1"]').send_keys(address)
+web.find_element_by_xpath('//*[@id="addressCity"]').send_keys(city)
 web.find_element_by_xpath('//*[@id="addressState"]/option[7]').click()
-web.find_element_by_xpath('//*[@id="addressZip"]').send_keys('92625')
+web.find_element_by_xpath('//*[@id="addressZip"]').send_keys(zip_code)
 web.find_element_by_xpath('//*[@id="optout"]/div[5]/div[2]/a[3]').click()
 
 #CLICK SUBMIT
