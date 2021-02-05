@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 
 profile_url = "THIS IS WHERE THE URL GOES"
-
+email = "Cirrus1994@Gmail.com"
 ## OPEN UP THE WEBPAGE
 web = webdriver.Chrome()
 web.get('https://www.spokeo.com/optout')
