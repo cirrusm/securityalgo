@@ -23,5 +23,5 @@ web.find_element_by_xpath('//*[@id="body_container"]/div[1]/div/form/table/tbody
 #Adress
 
 web.find_element_by_xpath('//*[@id="address1"]').send_keys(address)
-web.find_element_by_xpath().send_keys(city)
-web.find_element_by_xpath().send_keys(zip_code)
+web.find_element_by_xpath('//*[@id="city"]').send_keys(city)
+web.find_element_by_xpath('//*[@id="body_container"]/div[1]/div/form/table/tbody/tr[3]/td[2]/table/tbody/tr[2]/td[3]/input').send_keys(zip_code)
