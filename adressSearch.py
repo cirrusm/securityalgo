@@ -8,6 +8,7 @@ address = '4501 surrey drive'
 city = 'Corona del mar'
 zip_code = '92625'
 email = 'Cirrus1994@gmail.com'
+state = "California"
 
 web = webdriver.Chrome()
 web.get('https://www.addresssearch.com/remove-info.php')
@@ -25,3 +26,7 @@ web.find_element_by_xpath('//*[@id="body_container"]/div[1]/div/form/table/tbody
 web.find_element_by_xpath('//*[@id="address1"]').send_keys(address)
 web.find_element_by_xpath('//*[@id="city"]').send_keys(city)
 web.find_element_by_xpath('//*[@id="body_container"]/div[1]/div/form/table/tbody/tr[3]/td[2]/table/tbody/tr[2]/td[3]/input').send_keys(zip_code)
+
+#SELECT STATE
+
+web.find_element_by_xpath(f"//select[@name='state']/option[text()='{state}']").click()
