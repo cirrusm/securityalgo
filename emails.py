@@ -6,7 +6,7 @@ with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
     smtp.starttls()
     smtp.ehlo()
 
-    smtp.login('cirrus1994', 'Poloman16')
+    smtp.login('cirrus1994@gmail.com', 'vegasfat1')
 
     subject = 'Request to remove profile'
     body = """To whom it may concern,
@@ -14,4 +14,4 @@ with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
         """
     msg = f'Subject: {subject}\n\n{body}'
 
-    smtp.sendmail('cirrus1994@gmail.com', 'reciever@gmail.com', msg)
+    smtp.sendmail('cirrus1994@gmail.com', 'mokhtari@ucsb.edu', msg)
