@@ -2,6 +2,7 @@ import os
 import smtplib
 
 ## should prob make this a function 
+## pass it an array of objects containing users info, + a profile link for each object
 with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
     smtp.ehlo()
     smtp.starttls()
