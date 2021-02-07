@@ -1,6 +1,8 @@
 import addressSearch
 import lexisnexis
 
+## ADD AS MANY WITH NO VERFICIATION REQUIRED AS YOU CAN
+
 ## NEED TO GET:
 
 ## FIRSTNAME
