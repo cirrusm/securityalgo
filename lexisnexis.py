@@ -35,3 +35,5 @@ web.find_element_by_xpath('//*[@id="optout"]/div[5]/div[2]/a[3]').click()
 
 #CLICK SUBMIT
 web.find_element_by_xpath('//*[@id="optout"]/div[6]/div[2]/a[2]').click()
+
+print(f'A request has been sent to LexisNexis to remove your data, please check your email for a confirmation link')
