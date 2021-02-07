@@ -10,6 +10,8 @@ import time
 # email = 'Cirrus1994@gmail.com'
 # state = "California"
 
+## NEED TO UPDATE SELECT
+
 def address_Search(firstname, lastname, address, city, zip_code, email, state):
     web = webdriver.Chrome()
     web.get('https://www.addresssearch.com/remove-info.php')
