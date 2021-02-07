@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-profile_url = "THIS IS WHERE THE URL GOES"
+profile_url = "SAMPLE URL HERE"
 email = "Cirrus1994@Gmail.com"
 ## OPEN UP THE WEBPAGE
 web = webdriver.Chrome()
