@@ -6,4 +6,4 @@ with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
     smtp.starttls()
     smtp.ehlo()
 
-    smtp.login()
+    smtp.login('cirrus1994', 'Poloman16')
