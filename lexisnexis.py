@@ -18,11 +18,11 @@ def lexis(firstname, lastname, address, city, zip_code):
     # CLICK 2ND NEXT BUTTON
     web.find_element_by_xpath('//*[@id="optout"]/div[2]/div/a[2]').click()
 
-    # SELECT OPTION ON DROPDOWN, THEN CLICK 3RD NEXT
+    # SELECT OPTION ON DROPDOWN, THEN CLICK 3RD NEXT BUTTON
     web.find_element_by_xpath('//*[@id="reason"]/option[2]').click()
     web.find_element_by_xpath('//*[@id="optout"]/div[3]/div[2]/a[2]').click()
 
-    # FILL OUT FIRST AND LAST NAME, CLICK NEXT
+    # FILL OUT FIRST AND LAST NAME, CLICK 4th NEXT BUTTON
     web.find_element_by_xpath('//*[@id="nameFirst"]').send_keys(firstname)
     web.find_element_by_xpath('//*[@id="nameLast"]').send_keys(lastname)
     web.find_element_by_xpath('//*[@id="optout"]/div[4]/label[4]/div/a[3]').click()
