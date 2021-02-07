@@ -19,3 +19,9 @@ web.find_element_by_xpath('//*[@id="body_container"]/div[1]/div/form/table/tbody
 # Email
 
 web.find_element_by_xpath('//*[@id="body_container"]/div[1]/div/form/table/tbody/tr[2]/td[2]/input').send_keys(email)
+
+#Adress
+
+web.find_element_by_xpath().send_keys(address)
+web.find_element_by_xpath().send_keys(city)
+web.find_element_by_xpath().send_keys(zipcode)
