@@ -10,7 +10,7 @@ import smtplib
 ## 411
 ## advanced-people-search
 ## Epsilon-main --> optout@epsilon.com send with removal as subject, include name and adress
-## Epsilon-abacus
+## Epsilon-abacus --> abacusoptout@epsilon.com send with removal as subject, include name and adress
 ## epsilon-cfd
 ## epsilon-shopper
 
