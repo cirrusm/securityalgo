@@ -11,7 +11,7 @@ import smtplib
 ## advanced-people-search
 ## Epsilon-main --> optout@epsilon.com send with removal as subject, include name and adress
 ## Epsilon-abacus --> abacusoptout@epsilon.com send with removal as subject, include name and adress
-## epsilon-cfd
+## epsilon-cfd --> dataoptout1@epsilon.com send with removal as subject, include name and adress
 ## epsilon-shopper
 
 def sendmail(name, url):
