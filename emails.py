@@ -9,7 +9,7 @@ import smtplib
 ## MyLife --> privacy@mylife.com
 ## 411
 ## advanced-people-search
-## Epsilon-main
+## Epsilon-main --> optout@epsilon.com send with removal as subject, include name and adress
 ## Epsilon-abacus
 ## epsilon-cfd
 ## epsilon-shopper
