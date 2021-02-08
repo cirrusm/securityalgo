@@ -6,6 +6,14 @@ import smtplib
 
 ## EMAILS
 ## melissadata -->  paul.nelson@melissa.com  brett.mcwhorter@melissa.com
+## MyLife -->
+## 411
+## advanced-people-search
+## Epsilon-main
+## Epsilon-abacus
+## epsilon-cfd
+## epsilon-shopper
+
 def sendmail(name, url):
     with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
         smtp.ehlo()
