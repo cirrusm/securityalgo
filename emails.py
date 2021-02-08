@@ -6,7 +6,7 @@ import smtplib
 
 ## EMAILS
 ## melissadata -->  paul.nelson@melissa.com  brett.mcwhorter@melissa.com
-## MyLife -->
+## MyLife --> privacy@mylife.com
 ## 411
 ## advanced-people-search
 ## Epsilon-main
