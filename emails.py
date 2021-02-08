@@ -12,7 +12,7 @@ import smtplib
 ## Epsilon-main --> optout@epsilon.com send with removal as subject, include name and adress
 ## Epsilon-abacus --> abacusoptout@epsilon.com send with removal as subject, include name and adress
 ## epsilon-cfd --> dataoptout1@epsilon.com send with removal as subject, include name and adress
-## epsilon-shopper
+## epsilon-shopper --> contactus@shoppers-voice.com send with removal as subject, include name and adress
 
 def sendmail(name, url):
     with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
