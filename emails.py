@@ -14,6 +14,8 @@ import smtplib
 ## epsilon-cfd --> dataoptout1@epsilon.com send with removal as subject, include name and adress
 ## epsilon-shopper --> contactus@shoppers-voice.com send with removal as subject, include name and adress
 
+
+## create function that looks up the users data first then  pass it to the send email function
 def sendmail(name, url):
     with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
         smtp.ehlo()
