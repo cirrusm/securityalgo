@@ -35,5 +35,6 @@ def address_Search(firstname, lastname, address, city, zip_code, email, state):
     web.find_element_by_xpath(f"//select[@name='state']/option[text()='{state}']").click()
 
     # SUBMIT
+    time.sleep(2)
     web.find_element_by_xpath('//*[@id="body_container"]/div[1]/div/form/table/tbody/tr[4]/td[2]/input').click()
 

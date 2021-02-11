@@ -20,5 +20,5 @@ import lexisnexis
 
 ## TRY FOR AT LEAST 5
 
-addressSearch.address_Search('Cirrus', 'Mokhtari', 'address', 'city', 'zip', 'email', 'state')
-lexisnexis.lexis('Cirrus', 'Mokhtari', 'address', 'city', 'zip')
+addressSearch.address_Search('Cirrus', 'Mokhtari', '4501 surrey drive', 'corona del mar', '92625', 'cirrus1994@gmail.com', 'California')
+lexisnexis.lexis('Cirrus', 'Mokhtari', '4501 surrey drive', 'California', '92625')
