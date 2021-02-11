@@ -14,7 +14,7 @@ city = "corona del mar"
 state = 'california'
 zip_code = '92625'
 email = 'cirrus1994@gmail.com'
-phone = '949-8787-186'
+phone = '949-878-7186'
 
 
 ## PROFILE LINKS  <<<<< MIGHT NOT NEED
