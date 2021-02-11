@@ -7,11 +7,11 @@ import lexisnexis
 ## INFO SITES MAY NEED:
 ## GRAB THEM THROUGH INPUT
 
-## FIRSTNAME
-## LASTNAME
-## ADDRESS
-## CITY
-## STATE
+first_name = 'Cirrus'
+last_name = "Mokhtari"
+address = "4501 surrey drive"
+city = "corona del mar"
+state = 'california'
 ## ZIP
 ## EMAIL
 ## PHONE
