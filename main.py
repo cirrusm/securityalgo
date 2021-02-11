@@ -12,9 +12,10 @@ last_name = "Mokhtari"
 address = "4501 surrey drive"
 city = "corona del mar"
 state = 'california'
-## ZIP
-## EMAIL
-## PHONE
+zip_code = '92625'
+email = 'cirrus1994@gmail.com'
+phone = '949-8787-186'
+
 
 ## PROFILE LINKS  <<<<< MIGHT NOT NEED
 
