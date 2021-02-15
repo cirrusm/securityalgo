@@ -8,4 +8,4 @@ soup = BeautifulSoup(r.text, 'html.parser')
 results = soup.find('div', id = 'name-header')
 print(soup)
 
-#This didnt work
+#This didnt work lol
