@@ -17,6 +17,8 @@ import smtplib
 
 ## create function that looks up the users data first then  pass it to the send email function
 ## check
+
+## support@spyfly.com <<<<
 def sendmail(name, url):
     with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
         smtp.ehlo()
