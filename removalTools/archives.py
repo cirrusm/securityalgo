@@ -23,6 +23,7 @@ web.find_element_by_xpath('//*[@id="CopyValues"]').click()
 ## additional info
 web.find_element_by_xpath('//*[@id="Reason"]').send_keys('I dont want my information available on this site. ')
 ## click i agree to opt out
+web.find_element_by_xpath('//*[@id="AgreeToOptoutPolicy"]').click()
 
 
 #submit the form
