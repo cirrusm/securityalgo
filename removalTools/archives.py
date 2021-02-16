@@ -13,8 +13,9 @@ web.find_element_by_xpath('//*[@id="OptoutFirstName"]').send_keys('hi')
 web.find_element_by_xpath('//*[@id="OptoutMiddleName"]').send_keys('hiiiiiiiii')
 web.find_element_by_xpath('//*[@id="OptoutAddress"]').send_keys('address')
 web.find_element_by_xpath('//*[@id="OptoutCity"]').send_keys('city')
-web.find_element_by_xpath('').send_keys('hi')
-
+web.find_element_by_xpath('//*[@id="OptoutPostalCode"]').send_keys('zip')
+web.find_element_by_xpath('//*[@id="OptoutPhoneNumber"]').send_keys('phone')
+web.find_element_by_xpath('//*[@id="OptoutEmail"]').send_keys('email')
 ## click "i am this person"
 ## confirm email?
 ## additional info
