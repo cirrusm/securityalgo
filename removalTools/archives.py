@@ -8,8 +8,6 @@ def archives(first, last, address, city, zipCode, phone, email):
     web = webdriver.Chrome(options=option)
     web.get('https://www.archives.com/optout')
 
-    time.sleep(1)
-
     ## Fill out first last adress city state zip and email
     web.find_element_by_xpath('//*[@id="OptoutFirstName"]').send_keys(first)
     web.find_element_by_xpath('//*[@id="OptoutLastName"]').send_keys(last)
