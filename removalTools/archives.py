@@ -19,7 +19,9 @@ web.find_element_by_xpath('//*[@id="OptoutEmail"]').send_keys('cirrus1994@gmail.
 ## click "i am this person"
 web.find_element_by_xpath('//*[@id="CopyValues"]').click()
 ## confirm email?
+
 ## additional info
+web.find_element_by_xpath('//*[@id="Reason"]').send_keys('I dont want my information available on this site. ')
 ## click i agree to opt out
 
 
