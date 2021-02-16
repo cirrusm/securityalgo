@@ -12,7 +12,7 @@ first_name = 'Cirrus'
 last_name = "Mokhtari"
 address = "4501 surrey drive"
 city = "corona del mar"
-state = 'california'
+state = 'California'
 zip_code = '92625'
 email = 'cirrus1994@gmail.com'
 phone = '949-878-7186'
@@ -22,6 +22,6 @@ phone = '949-878-7186'
 
 ## TRY FOR AT LEAST 5
 
-addressSearch.address_Search('Cirrus', 'Mokhtari', '4501 surrey drive', 'corona del mar', '92625', 'cirrus1994@gmail.com', 'California')
-lexisnexis.lexis('Cirrus', 'Mokhtari', '4501 surrey drive', 'California', '92625')
+addressSearch.address_Search(first_name, last_name, address, city, zip_code, email, state)
+lexisnexis.lexis(first_name, last_name, address, state, zip_code)
 archives.archives(first_name, last_name, address, city, zip_code, phone, email)
