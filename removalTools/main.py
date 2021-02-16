@@ -1,5 +1,6 @@
 import addressSearch
 import lexisnexis
+import archives
 
 ## ADD AS MANY WITH NO VERFICIATION REQUIRED AS YOU CAN
 ## WHEN TESTING, YOU MAY WANT TO REMOVE WEBDRIVER.CHROME() FROM EACH INDIVIDUAL FUNCTION
@@ -23,3 +24,4 @@ phone = '949-878-7186'
 
 addressSearch.address_Search('Cirrus', 'Mokhtari', '4501 surrey drive', 'corona del mar', '92625', 'cirrus1994@gmail.com', 'California')
 lexisnexis.lexis('Cirrus', 'Mokhtari', '4501 surrey drive', 'California', '92625')
+archives.archives(first_name, last_name, address, city, zip_code, phone, email)
