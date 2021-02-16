@@ -3,7 +3,7 @@ import time
 
 
 
-def archives(first, last, address, city, zip, phone, email):
+def archives(first, last, address, city, zipCode, phone, email):
     option = webdriver.ChromeOptions()
     web = webdriver.Chrome(options=option)
     web.get('https://www.archives.com/optout')
@@ -11,13 +11,13 @@ def archives(first, last, address, city, zip, phone, email):
     time.sleep(1)
 
     ## Fill out first last adress city state zip and email
-    web.find_element_by_xpath('//*[@id="OptoutFirstName"]').send_keys('hi')
-    web.find_element_by_xpath('//*[@id="OptoutLastName"]').send_keys('hiiiiiiiii')
-    web.find_element_by_xpath('//*[@id="OptoutAddress"]').send_keys('address')
-    web.find_element_by_xpath('//*[@id="OptoutCity"]').send_keys('city')
-    web.find_element_by_xpath('//*[@id="OptoutPostalCode"]').send_keys('92625')
-    web.find_element_by_xpath('//*[@id="OptoutPhoneNumber"]').send_keys('949-878-7186')
-    web.find_element_by_xpath('//*[@id="OptoutEmail"]').send_keys('cirrus1994@gmail.com')
+    web.find_element_by_xpath('//*[@id="OptoutFirstName"]').send_keys(first)
+    web.find_element_by_xpath('//*[@id="OptoutLastName"]').send_keys(last)
+    web.find_element_by_xpath('//*[@id="OptoutAddress"]').send_keys(address)
+    web.find_element_by_xpath('//*[@id="OptoutCity"]').send_keys(city)
+    web.find_element_by_xpath('//*[@id="OptoutPostalCode"]').send_keys(zipCode)
+    web.find_element_by_xpath('//*[@id="OptoutPhoneNumber"]').send_keys(phone)
+    web.find_element_by_xpath('//*[@id="OptoutEmail"]').send_keys(email)
     ## click "i am this person"
     web.find_element_by_xpath('//*[@id="CopyValues"]').click()
     ## confirm email?
