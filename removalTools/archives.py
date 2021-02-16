@@ -11,7 +11,9 @@ time.sleep(1)
 ## Fill out first last adress city state zip and email
 web.find_element_by_xpath('//*[@id="OptoutFirstName"]').send_keys('hi')
 web.find_element_by_xpath('//*[@id="OptoutMiddleName"]').send_keys('hiiiiiiiii')
-
+web.find_element_by_xpath('//*[@id="Email"]').send_keys('email')
+web.find_element_by_xpath('').send_keys('hi')
+web.find_element_by_xpath('').send_keys('hi')
 
 ## click "i am this person"
 ## confirm email?
