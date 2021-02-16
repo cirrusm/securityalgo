@@ -14,6 +14,8 @@ web.find_element_by_xpath('//*[@id="OptoutMiddleName"]').send_keys('hiiiiiiiii')
 
 
 ## click "i am this person"
-
+## confirm email?
+## additional info
+## click i agree to opt out
 
 web.find_element_by_xpath('/html/body/div[1]/div/div/div/div/div[1]/div/form/div[2]/div[18]/div/input').click()
