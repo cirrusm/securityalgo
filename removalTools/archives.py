@@ -10,13 +10,14 @@ time.sleep(1)
 
 ## Fill out first last adress city state zip and email
 web.find_element_by_xpath('//*[@id="OptoutFirstName"]').send_keys('hi')
-web.find_element_by_xpath('//*[@id="OptoutMiddleName"]').send_keys('hiiiiiiiii')
+web.find_element_by_xpath('//*[@id="OptoutLastName"]').send_keys('hiiiiiiiii')
 web.find_element_by_xpath('//*[@id="OptoutAddress"]').send_keys('address')
 web.find_element_by_xpath('//*[@id="OptoutCity"]').send_keys('city')
-web.find_element_by_xpath('//*[@id="OptoutPostalCode"]').send_keys('zip')
-web.find_element_by_xpath('//*[@id="OptoutPhoneNumber"]').send_keys('phone')
-web.find_element_by_xpath('//*[@id="OptoutEmail"]').send_keys('email')
+web.find_element_by_xpath('//*[@id="OptoutPostalCode"]').send_keys('92625')
+web.find_element_by_xpath('//*[@id="OptoutPhoneNumber"]').send_keys('949-878-7186')
+web.find_element_by_xpath('//*[@id="OptoutEmail"]').send_keys('cirrus1994@gmail.com')
 ## click "i am this person"
+web.find_element_by_xpath('//*[@id="CopyValues"]').click()
 ## confirm email?
 ## additional info
 ## click i agree to opt out
