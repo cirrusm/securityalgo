@@ -15,7 +15,7 @@ web.get('https://www.intelius.com/opt-out/')
 time.sleep(1)
 no_button = web.find_element_by_xpath('//*[@id="button-container"]/a[2]')
 no_button.click()
-# FILL OUT FIRST NAME LAST NAME STATE EMAIL ADRESS CLICK CONTINUE
+# FILL OUT FIRST NAME LAST NAME STATE EMAIL ADRESS CLICK CONTINUES
 time.sleep(1)
 first_name_field = web.find_element_by_xpath('//*[@id="first-name"]/div/input')
 last_name_field = web.find_element_by_xpath('//*[@id="last-name"]/div/input')
