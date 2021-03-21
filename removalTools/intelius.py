@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-#kgg
+#kggg
 
 option = webdriver.ChromeOptions()
 firstname = input('Please enter your first name: ')
